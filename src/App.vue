@@ -1,7 +1,6 @@
 <template>
   <LNB />
   <TheHeader />
-  <RouterView />
 </template>
 
 <script>
