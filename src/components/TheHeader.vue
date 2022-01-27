@@ -376,7 +376,7 @@ export default {
             transform: scale(.6666); // from 36px to 24px
           }
         }
-        .tabs {
+        .ranking-tabs {
           height: 40px;
           margin: 18px 0;
           border: 1px solid #eee;
@@ -400,7 +400,7 @@ export default {
             }
           }
         }
-        .list {
+        .ranking-list {
           li {
             position: relative;
             margin-top: 14px;
