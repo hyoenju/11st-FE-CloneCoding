@@ -8,6 +8,9 @@
   <Airlift />
   <PlanBanner />
   <WideBanner />
+  <BestProduct />
+  <TodaysChance />
+  <Promotion />
 </template>
 
 <script>
@@ -22,6 +25,10 @@ import Airlift from '~/components/Airlift'
 import PlanBanner from '~/components/PlanBanner'
 import WideBanner from '~/components/WideBanner'
 
+import BestProduct from '~/components/BestProduct'
+import TodaysChance from '~/components/TodaysChance'
+import Promotion from '~/components/Promotion'
+
 export default {
   components: {
     LNB, 
@@ -33,6 +40,9 @@ export default {
     Airlift,
     PlanBanner,
     WideBanner,
+    BestProduct,
+    TodaysChance, 
+    Promotion,
   }
 }
 </script>
