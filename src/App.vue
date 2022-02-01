@@ -4,6 +4,10 @@
   <Billboard />
   <Direct />
   <HotFocus />
+  <TimeDeal />
+  <Airlift />
+  <PlanBanner />
+  <WideBanner />
 </template>
 
 <script>
@@ -13,6 +17,11 @@ import Billboard from '~/components/Billboard'
 import Direct from '~/components/Direct'
 import HotFocus from '~/components/HotFocus'
 
+import TimeDeal from '~/components/TimeDeal'
+import Airlift from '~/components/Airlift'
+import PlanBanner from '~/components/PlanBanner'
+import WideBanner from '~/components/WideBanner'
+
 export default {
   components: {
     LNB, 
@@ -20,6 +29,10 @@ export default {
     Billboard,
     Direct,
     HotFocus,
+    TimeDeal,
+    Airlift,
+    PlanBanner,
+    WideBanner,
   }
 }
 </script>
