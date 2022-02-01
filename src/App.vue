@@ -11,6 +11,9 @@
   <BestProduct />
   <TodaysChance />
   <Promotion />
+  <MdsRecommendation />
+  <Partner />
+  <TheFooter />
 </template>
 
 <script>
@@ -28,6 +31,9 @@ import WideBanner from '~/components/WideBanner'
 import BestProduct from '~/components/BestProduct'
 import TodaysChance from '~/components/TodaysChance'
 import Promotion from '~/components/Promotion'
+import MdsRecommendation from '~/components/MdsRecommendation'
+import Partner from '~/components/Partner'
+import TheFooter from '~/components/TheFooter'
 
 export default {
   components: {
@@ -43,6 +49,9 @@ export default {
     BestProduct,
     TodaysChance, 
     Promotion,
+    MdsRecommendation, 
+    Partner,
+    TheFooter, 
   }
 }
 </script>
