@@ -14,7 +14,9 @@
   <MdsRecommendation />
   <Partner />
   <TheFooter />
+  <GlobalBanner />
 </template>
+
 
 <script>
 import LNB from '~/components/LNB'
@@ -34,6 +36,8 @@ import Promotion from '~/components/Promotion'
 import MdsRecommendation from '~/components/MdsRecommendation'
 import Partner from '~/components/Partner'
 import TheFooter from '~/components/TheFooter'
+import GlobalBanner from '~/components/GlobalBanner'
+
 
 export default {
   components: {
@@ -52,9 +56,11 @@ export default {
     MdsRecommendation, 
     Partner,
     TheFooter, 
+    GlobalBanner,
   }
 }
 </script>
+
 
 <style lang="scss">
 @import "~/scss/main.scss";
